@@ -1,5 +1,5 @@
 <template>
-    <section id="pricing" class="w-full py-16 bg-gray-100 text-center">
+    <section id="pricing" class="w-full py-16 bg-gray-100 text-center min-h-screen">
         <h2 class="text-4xl font-bold text-gray-800 mb-10">Starter Sites</h2>
         <div class="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
             <!-- Static Website Plans -->

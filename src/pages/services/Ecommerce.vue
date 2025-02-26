@@ -1,5 +1,5 @@
 <template>
-    <section id="ecommerce-pricing" class="w-full py-16 bg-gray-100 text-center">
+    <section id="ecommerce-pricing" class="w-full py-16 bg-gray-100 text-center min-h-screen">
         <h2 class="text-4xl font-bold text-gray-800 mb-10">E-Commerce Sites</h2>
             <div class="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
                 <div class="bg-white p-6 rounded-lg shadow-lg w-80 hover:scale-105 transition-transform cursor-pointer">
