@@ -4,7 +4,7 @@
       :navItems="navItems"
       :headerColor="'bg-blue-600'"
       :headerTextColor="'text-white'"
-      :headerTitle="'Freelance Web Pro'"
+      headerTitle="[BH] Web Design"
     />
     <transition name="fade">
       <router-view v-if="isVisible" />

@@ -2,7 +2,7 @@
     <header :class="[props.headerColor, props.sticky ? 'sticky top-0' : '', 'z-50', props.headerTextColor]" 
         class="w-full py-4 px-6 flex justify-between items-center shadow-lg"
     >
-        <router-link to="/" className="text-2xl font-bold">{{ props.headerTitle }}</router-link>
+        <router-link to="/" class="text-2xl font-bold">{{ props.headerTitle }}</router-link>
         <nav class="flex max-w-7xl items-center justify-between lg:px-8 p-2" aria-label="Global">
             <!-- Mobile Menu Button -->
             <div class="flex lg:hidden">

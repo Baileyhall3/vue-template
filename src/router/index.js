@@ -84,7 +84,10 @@ const router = createRouter({
         title: 'Contact Us - Freelance Web Pro'
       }
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0, behavior: 'smooth' }; // Scrolls to top with smooth animation
+  }
 })
 
 // Update page title for SEO
